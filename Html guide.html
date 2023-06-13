@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Guide</title>
+    <link rel="stylesheet" href="./html styles.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Sacramento&amp;family=Vollkorn+SC&amp;display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+      <div class="header">
+          <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="./frontend.html" class="nav-link">Frontend</a></li>
+              <li class="nav-item"><a href="./Projects.html" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </header>
+        </div> 
+    <H1>Html Guide</H1>
+
+    <p>This is my Html guide. It includes all the Html code I used to create the main page of this site. You can find my CSS and Java Script here.</p>
+    <h3>The Boilerplate</h3>
+         I started with the HTML document structure by opening a new file in Visual Studio Code (which is a text editor or an Integrated Development Environment (IDE)) and just by typing an explanation mark at the top of the page, tells the app to create a Html boiler plate which automatically creates the basic structure of an HTML document for you.
+    </p>
+<img src="./images/!.PNG" alt="Explanation mark">
+<P >This creates a boilerplate, or Html document structure: 
+    <br>
+    <img src="./images/boiler plate.PNG" alt="HTML Boilerplate">
+<div class="Boilerplate">
+    <ol>
+      <li><p> &lt;!DOCTYPE html&gt; This declaration at the beginning of the document specifies that it is an HTML5 document.</p></li>
+       
+        <li> <p>&lt; html&gt; This element is the root element of an HTML page.</p></li>
+        
+         <li><p> &lt;head&gt; This contains meta-information about the HTML document, such as the title, character encoding, CSS stylesheets, JavaScript files, and other metadata.</p>
+         </li> 
+          <li> <p> &lt;meta charset="UTF-8"&gt; This meta tag specifies the character encoding for the document, ensuring that it can handle a wide range of characters.</p>  
+          </li>    
+         <li>   <p> &lt;title&gt; This sets the title of the web page, which is displayed in the browser's title bar or tab.</p>
+         </li> 
+         <li> <p>  &lt;body&gt; This represents the main content of the web page and contains all visible content, such as headings, paragraphs, images, links, etc.</p>
+         </li>   
+         <li>  <p>  &lt;h1&gt; is a top-level heading on the page and so also usually the largest.</p>
+         </li>    
+        <li>  <p>  &lt;p&gt; This element represents a paragraph of text. </p>
+        </li><br>
+    </ol>
+
+</div>
+    You can customize this boilerplate by adding your own content, styles, and scripts to create your web page. It serves as a foundation that ensures your HTML document has the necessary structure and elements to function correctly and be properly displayed in web browsers.
+</P>
+<h3>The Head</h3>
+
+<p>So now with my boilerplate ready I added some external reources to the head of the document: </p>
+
+<img src="./images/the head 1.PNG" alt="image showing css stylesheet link">
+<p>1. Inside the &lt;head&gt; tags, I added the &lt;link&gt; tag to link the page to my external CSS stylesheets. The href attribute specifies the path to the CSS file, in this case, "/styles.css".</p>
+<img src="./images/the head 2.PNG" alt="image showing how to add link to your favicon">
+<p> 2. Also within the &lt;head&gt; tags, I added another &lt;link&gt; tag to set the favicon, which is the small icon displayed in the browser tab. The href attribute specifies the path to the favicon file, in this case, "./images/favicon.ico".</p>
+<img src="./images/the head 3.PNG" alt="image showing how i added external fonts">
+<p>3. Still within the &lt;head&gt; tags, and again adding the &lt;link&gt; tags, I was able to preconnect to external resources and import Google fonts. This helps improve the performance of the webpage by initiating an early connection to the specified domains. In this case to be able to display my chosen font correctly to all users. 8.	The href attribute specifies the URL of the font stylesheets to be imported.</p>
+<h3>The Body</h3>
+<p>After the closing &lt;/head&gt; tag, open the &lt;body&gt; tag to start the body section of the webpage.</p>
+<img src="./images/body 1.PNG" alt="image demonstrating html body tags">
+<p>The content of the body of the site is made up of five divs with individual classes.  The class "top-container" contains the content for the top section of the webpage, the class 'middle-container' for the middle section, the div holding the classes 'skills' and 'skill-row2'for the third section, class 'contact-me' for the fourth and finally the class 'bottom-container' for the footer.</p>
+<img src="./images/divs.PNG" alt="image demonstrating the use of html divs">
+
+<h4>More about divs</h4>
+<p>
+
+
+
+HTML div tags, (short for "division,") are used to create a container or a division within an HTML document. They are a fundamental part of HTML and are used to group and organize content, providing structure and layout to web pages.
+
+The primary purpose of the &lt;div&gt; tag is to divide or section off parts of a web page, allowing you to apply specific styles, formatting, or functionality to that particular section. By using div tags, you can group related elements together and apply CSS (Cascading Style Sheets) styles to them collectively.
+
+Here are some common use cases and benefits of using  &lt;div&gt; tags:</p>
+
+<div class="div-uses">
+    <ul>
+<li> <p>
+Structural Organization:  &lt;div&gt; tags are used to create a logical structure for your web page, dividing it into smaller, manageable sections. For example, you can use div tags to separate the header, navigation, content area, sidebar, and footer of your page.
+</p></li>
+<li><p>
+CSS Styling: Div tags provide a way to target specific sections of your HTML document and apply CSS styles to them. By assigning class or ID attributes to div tags, you can selectively style them using CSS rules, such as changing background colors, fonts, margins, or applying borders.
+</p></li>
+<li><p>
+Layout and Grid Systems: Div tags are commonly used to create flexible layouts and grid systems. By combining div tags with CSS properties like display: flex or using CSS frameworks like Bootstrap or Foundation, you can create responsive designs that adapt to different screen sizes and devices.
+</p></li>
+<li><p>
+Content Grouping: Div tags allow you to group related elements together, such as images, paragraphs, headings, lists, or forms. This grouping makes it easier to apply consistent styles or manipulate the content as a whole using JavaScript or other scripting languages.
+</p></li>
+<li><p>
+Scripting and Interactivity: Div tags can serve as containers for interactive elements, such as buttons, dropdown menus, tabs, or accordions. You can attach event handlers or apply JavaScript libraries to the divs to enable interactivity and dynamic behavior on your web page.
+</p>
+</li>
+</ul>
+</div>
+<p>To use a div tag, you simply enclose the desired content within opening &lt;div&gt;and closing  &lt;/div&gt; tags. 
+Overall, &lt;div&gt;tags are versatile and essential elements in HTML that provide structure, layout, and flexibility to web pages, allowing for easier management and presentation of content.
+</p>
+<div class="bottom-container">
+  <a class="" href="https://t.co/aG4cisFEtG">
+  Twitter
+  </a>
+  <a class="footer-link-linkedin" href="https://www.linkedin.com/in/machala-beckford-2340a622a/">
+    linkedin
+  </a>
+  <a class="footer-link-instagram" href="https://www.instagram.com/machalabeckford/">
+    Instagram
+  </a>
+  <p class="name">© 2023 Machala Beckford.</p>
+
+</div>
+
+</body>
+</html>

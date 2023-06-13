@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script Guide</title>
+    <link rel="stylesheet" href="./html styles.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Sacramento&amp;family=Vollkorn+SC&amp;display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="header">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="./frontend.html" class="nav-link">Frontend</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div> 
+  <H1> Java Script Guide</H1> 
+
+<p>
+   
+  The code provided is a guide for creating a rock-paper-scissors game in JavaScript. The game allows the user to make a choice by clicking on buttons, and the computer generates a random choice. The outcomes are determined, scores are updated, and the results are displayed on the web page. <a href="./Rock paper scissors/touch index.html">play it here.</a> . 
+  Here is a breakdown of the code:
+
+Ok so using 'let' I started with the variables 'userScore' and 'computerScore' to keep track of the scores for the user and computer players.
+
+</p>
+
+<img src="./Rock paper scissors/images/js1.PNG" alt="javascript code">
+
+<p>
+Then using 'const' I referenced my DOM Elements. These type of variables store references to various HTML elements on the web page using their respective IDs or CSS selectors. They are used to update the scores, display the game result, and handle user interactions.
+</p>
+<img src="./Rock paper scissors/images/js2.PNG" alt="javascript code">
+
+<p>Next up are the functions. </p>
+
+<img src="./Rock paper scissors/images/js3.PNG" alt="javascript code">
+<p>    The getComputerChoice function randomly selects a choice ('r', 'p', or 's') for the computer player and returns it.
+    The convertToWord function takes a letter ('r', 'p', or 's') as input and converts it to the corresponding word ('Rock', 'Paper', or 'Scissors').
+    The win, lose, draw functions handle different outcomes of the game: win, lose, or draw. They update the scores, display the result message, and add CSS classes to animate the user's choice.
+    </p>
+    <img src="./Rock paper scissors/images/js4.PNG" alt="javascript code">
+    <p>The game function takes the user's choice as input and generates a computer choice. It determines the outcome of the game based on the combination of choices using a switch statement and calls the corresponding outcome function.
+        </p>
+<img src="./Rock paper scissors/images/js5.PNG" alt="javascript code">
+<p>Then finally, I add the Initialization of main. This line of code executes the main function when the script runs, setting up the event listeners and starting the game.
+</p>
+<img src="./Rock paper scissors/images/js6.PNG" alt="">
+
+<div class="bottom-container">
+  <a class="" href="https://t.co/aG4cisFEtG">
+  Twitter
+  </a>
+  <a class="footer-link-linkedin" href="https://www.linkedin.com/in/machala-beckford-2340a622a/">
+    linkedin
+  </a>
+  <a class="footer-link-instagram" href="https://www.instagram.com/machalabeckford/">
+    Instagram
+  </a>
+  <p class="name">© 2023 Machala Beckford.</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
